@@ -18,7 +18,7 @@ jobs:
       fail-fast: false
       matrix:
         goos: [linux, windows, darwin]
-        goarch: [amd64, arm64]
+        goarch: [amd64, arm64, armv7]
 
     steps:
       - name: Checkout code
